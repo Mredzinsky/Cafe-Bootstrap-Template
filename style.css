@@ -1,0 +1,63 @@
+body {
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#title {
+	background-color: rgba(255,203,15,0.6);
+	width: 500px;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 500px;
+	padding: 10px;
+	background-blend-mode: 20%;
+	font-family: 'Lobster', cursive;
+	font-size: large;
+	font-size: 150%;
+	margin-bottom: 200px;
+}
+.container-fluid {
+	background-color: white;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: 'Pacifico', cursive;
+}
+p {
+	font-family: 'Abel', sans-serif;
+}
+#menu {
+	background-color: black;
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 100px;
+}
+#about {
+	background-color: white;
+	color: black;
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 100px;
+}
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	padding: 40px;
+}
+.fade-in {
+	animation: fadeIn 6s;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
